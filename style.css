@@ -21,6 +21,10 @@ h2 {
     margin-bottom: 400px;
 }
 
+.taka-color {
+    color: darkgray;
+}
+
 .width {
     width: 100%;
     text-align: center;
@@ -33,23 +37,26 @@ h2 {
 
 }
 
-
-
-.amount-item {
-    text-align: center;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding-left: 10px;
-    border-radius: 10px;
-}
-
 .amount-item li {
     display: inline-block;
-    font-size: 20px;
+    font-size: 30px;
+    padding: 20px;
+    text-align: justify;
 }
 
 .border {
+    border: 10px;
+    background-color: rgb(238, 231, 231);
+    margin-right: 5%;
     border-radius: 5px;
+}
+
+.red-border {
+    border: 5px solid rgb(236, 49, 49);
+    background-color: rgb(236, 146, 146);
+    margin-right: 5%;
+    border-radius: 5px;
+
 }
 
 .button {
