@@ -3,6 +3,13 @@ body {
     margin: 0;
 }
 
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
 
 
 .color {
@@ -22,8 +29,27 @@ body {
 .banner {
     background-image: url(images/flood.png);
     background-repeat: no-repeat;
-    height: 400px;
+    height: 500px;
 
+}
+
+
+
+.amount-item {
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.amount-item li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.border {
+    border-radius: 5px;
 }
 
 .button {
@@ -33,15 +59,4 @@ body {
     color: bisque;
     font-weight: 600;
     border-radius: 5px;
-}
-
-.foot {
-
-    background-color: black;
-    padding: 5px;
-
-}
-
-.foot-color {
-    color: crimson;
 }
