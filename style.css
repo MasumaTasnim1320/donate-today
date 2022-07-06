@@ -18,7 +18,7 @@ h2 {
 
 .flexible {
     display: flex;
-    margin-bottom: 400px;
+    margin-bottom: 10%;
 }
 
 .taka-color {
@@ -104,7 +104,25 @@ mark {
     background-color: coral;
 }
 
+.subscribe-box {
 
+    background-color: rgb(245, 221, 185);
+    padding: 10px;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    border-radius: 20px;
+}
+
+
+.box-color {
+    border: 50px;
+    background-color: rgb(240, 174, 163);
+    margin-left: 30%;
+    margin-right: 30%;
+    border-radius: 10px;
+}
 
 
 .foot {
